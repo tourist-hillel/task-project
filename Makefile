@@ -24,3 +24,4 @@ test-coverage:
 	$(DOCKER_COMPOSE) run backend coverage run -m pytest
 	$(DOCKER_COMPOSE) run backend coverage report
 	$(DOCKER_COMPOSE) run backend coverage html --directory=/app/backend/htmlcov
+ß
